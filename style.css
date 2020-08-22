@@ -1,27 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+} 
+
 /*Navigation Bar*/
 nav {
-    background-color: blue;
-    text-align: center;
+    padding: 5px 0;
     width: 100%;
-  }
+    min-height: 40px;
+    font-size: 15px;
+    
+    background-color: #f0f1f5;
+    text-align: center;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
-  nav li {
-      display: inline-block;
-  }
+nav li {
+    display: inline-block;
+}
 
-  nav a {
-      display: block;
-      padding: 20px;
-      color: white;
-      text-decoration: none;
-  }
+nav a {
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
 
-  nav a:hover {
-      background-color: darkblue;
-      color: blue;
-  }
-  
-  nav .active {
-    background-color: lightblue;
-    color: darkblue;
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+}
+
+.nav-links a:hover {
+    background-color: #6e779c;
+    color: white;
+}
+
+.nav-links .active {
+    border: 2px solid #c0c4d4;
+    border-radius: 50%;
+    background-color: #c0c4d4;
+    
+}
+
+nav img {
+    height: 2em;
+    width: 2em;
+}
+
+/*Home Image*/
+main img {
+    display: block;
+    height: auto; 
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+}
+
+h1 {
+    padding-top: 120px;
+    text-align: center;
+    font-weight: 600;
+}
+
+h3 {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.linking-buttons {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.linking-buttons a {
+    padding: 10px 15px;
+    border: 2px solid #6e779c;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #6e779c;
+    background-color: white;
+    font-weight: bold;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 25px;
+    background-color: #6e779c;
+    color: white;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 2px;
   }
