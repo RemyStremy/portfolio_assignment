@@ -57,6 +57,9 @@ nav img {
     width: 2em;
 }
 
+main {
+    padding: 0 10px;
+}
 /*Home Image*/
 main img {
     display: block;
@@ -70,11 +73,13 @@ h1 {
     padding-top: 120px;
     text-align: center;
     font-weight: 600;
+    letter-spacing: 1px;
 }
 
 h3 {
     padding-top: 30px;
     text-align: center;
+    letter-spacing: 1px;
 }
 
 .linking-buttons {
@@ -83,13 +88,16 @@ h3 {
 }
 
 .linking-buttons a {
+    margin: 0 4px;
     padding: 10px 15px;
     border: 2px solid #6e779c;
     border-radius: 20px;
+
     text-decoration: none;
     color: #6e779c;
     background-color: white;
     font-weight: bold;
+    letter-spacing: 1px;
 }
 
 footer {
@@ -103,4 +111,4 @@ footer {
     text-align: center;
     font-weight: 300;
     letter-spacing: 2px;
-  }
+}
