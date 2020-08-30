@@ -1,3 +1,4 @@
+/* Importing Roboto font with the weight of 300 from Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 *{
@@ -7,7 +8,7 @@
     font-family: 'Roboto', sans-serif;
 } 
 
-/* Navigation Bar */
+/* --- Navigation Bar --- */
 nav {
     padding: 5px 0;
     width: 100%;
@@ -39,11 +40,13 @@ nav a {
     width: 80%;
 }
 
+/* Mouse hover effect */
 .nav-links a:hover {
     background-color: #6e779c;
     color: white;
 }
 
+/* Active page */
 .nav-links .active {
     border: 2px solid #c0c4d4;
     border-radius: 50%;
@@ -55,6 +58,7 @@ nav img {
     height: 2em;
     width: 2em;
 }
+/* ---------------------- */
 
 /* Footer */
 footer {

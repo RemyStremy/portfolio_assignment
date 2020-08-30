@@ -1,0 +1,15 @@
+main {
+    margin-bottom: 69px; /* Height of the footer */ 
+}
+
+figure {
+    margin: auto;
+    height: auto;
+    text-align: center;
+}
+
+figure img {
+    max-width: 85%;
+    padding: 20px;
+    background-color: lightgrey;
+}
