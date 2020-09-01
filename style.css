@@ -2,24 +2,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 *{
-    margin: 0px;
     padding: 0px;
+    margin: 0px;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 } 
 
 /* --- Navigation Bar --- */
 nav {
-    padding: 5px 0;
     width: 100%;
     min-height: 40px;
+    padding: 5px 0;    
     
     background-color: #f0f1f5;
     text-align: center;
     
+    /* Creates flex box and centres the content */
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: center;
 }
 
 nav li {
@@ -27,7 +27,7 @@ nav li {
 }
 
 nav a {
-    display: block;
+    display: flex;
     padding: 10px;
     color: white;
     text-decoration: none;
@@ -35,28 +35,24 @@ nav a {
 
 .nav-links {
     display: flex;
+
+    /* Spacing of the icons inside the ul */
     justify-content: space-around;
     align-items: center;
     width: 80%;
 }
 
-/* Mouse hover effect */
-.nav-links a:hover {
-    background-color: #6e779c;
-    color: white;
-}
-
-/* Active page */
+/* Highlights active page on nav bar */
 .nav-links .active {
     border: 2px solid #c0c4d4;
     border-radius: 50%;
-    background-color: #c0c4d4;
-    
+    background-color: #c0c4d4;    
 }
 
+/* Size of the navbar icons */
 nav img {
-    height: 2em;
     width: 2em;
+    height: 2em;    
 }
 /* ---------------------- */
 
@@ -68,8 +64,8 @@ footer {
     width: 100%;
     padding: 25px;
     background-color: #6e779c;
+    
     color: white;
     text-align: center;
-    font-weight: 300;
     letter-spacing: 2px;
 }
