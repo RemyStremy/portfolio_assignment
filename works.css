@@ -20,8 +20,13 @@ main {
     font-size: large;
     font-weight: 600;
 
-    border-top: 2px solid #6e779c;;
+    border-top: 2px solid #6e779c;
     border-bottom: 2px solid #6e779c;
+}
+
+#heading p a {
+    color: #6e779c;
+    text-decoration: none;
 }
 
 /* -- Cards -- */
@@ -31,29 +36,52 @@ main {
     margin: 10%;
 }
 
-.container {
+.card .container {
     padding: 10px 20px 20px;
 }
 
 /* Images in the cards */
-figure {
+.card figure {
     height: auto;
     margin: auto;
     text-align: center;
 }
 
-figure img {
+.card figure img {
     padding-top: 20px;
-    max-width: 85%;
+    max-width: 100%;
 }
 
 /* Text in the cards */
-.container h3 {
+.card .container h3 {
+    margin-top: 10px;
     color: #6e779c;
     letter-spacing: 1px;
 }
 
-.container p {
+.card .container p {
+    margin-top: 20px;
     font-weight: 600;
+    letter-spacing: 1px;
 }
+
+.card .container > a {
+    display: block;
+    width: 8em;
+    padding: 10px 15px;
+    margin: auto;
+    margin-top: 25px;
+
+    border: 2px solid #6e779c;
+    border-radius: 20px;
+    background-color: red;
+
+    text-decoration: none; /* Removes hyperlink underline */
+    background-color: white;
+    color: #6e779c;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;
+}
+  }
 /* ------------ */
