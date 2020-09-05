@@ -13,7 +13,9 @@ main img {
 
 /* -- Home Text -- */
 section h1 {
-    padding-top: 120px;
+    padding-top: 90px;
+    padding-bottom: 20px;
+
     text-align: center;
     font-weight: 600;
     font-size: xx-large;
@@ -30,20 +32,20 @@ section p {
 /* --------------- */
 
 /* Call-to-action buttons */
-.linking-buttons {
+.call-to-actions {
     margin-top: 40px;
     text-align: center;
 }
 
-.linking-buttons a {
+.call-to-actions a {
     padding: 10px 15px;
     margin: 0 4px;
-    border: 2px solid #6e779c;
+    border: 2px solid #475BAC;
     border-radius: 20px;
 
     text-decoration: none; /* Removes hyperlink underline */
     background-color: white;
-    color: #6e779c;
+    color: #475BAC;
     font-weight: bold;
     letter-spacing: 1px;
 }

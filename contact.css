@@ -1,27 +1,22 @@
-main {
-    margin-bottom: calc(69px + 30px); /* Height of the footer + extra spacing */
-    padding: 0 10px;
-}
-
 #main-text h1 {
     margin-top: 50px;
     margin-bottom: 30px;
     
     text-align: center;
+    font-size: 32px;
     font-weight: 600;
     letter-spacing: 1px;
 }
 
 #main-text p {
     padding: 30px 30px;
+    border-top: 2px solid #6e779c;
+    border-bottom: 2px solid #6e779c;
     
     text-align: center;
     letter-spacing: 1px;
     font-size: large;
-    font-weight: 600;
-
-    border-top: 2px solid #6e779c;
-    border-bottom: 2px solid #6e779c;
+    font-weight: 600;    
 }
 
 /* -- Contact Fields -- */
@@ -53,12 +48,13 @@ input[type=submit] {
 
     background-color: #6e779c;
     color: white;
+    font-weight: 500;
     letter-spacing: 1px;
   }
 /* ----------------- */
 
 #references {
     padding: 20px 30px;
-    border-top: 2px solid lightgrey;
-    color: lightslategrey;
+    border-top: 2px solid #c0c4d4;
+    color: #383D4F;
 }
