@@ -16,15 +16,21 @@
         <nav>
             <!--Navigation Bar-->
             <ul class="nav-links">
-                <li><a href="index.html">
+                <li>
+                    <a href="index.html">
                         <img src="images/navbar/home-solid.svg" alt="Home">
-                    </a></li>
-                <li><a href="works.html">
+                    </a>
+                </li>
+                <li>
+                    <a href="works.html">
                         <img src="images/navbar/archive-solid.svg" alt="Work">
-                    </a></li>
-                <li><a href="contact.html" class="active">
+                    </a>
+                </li>
+                <li>
+                    <a href="contact.html" class="active">
                         <img src="images/navbar/phone-solid.svg" alt="Contact">
-                    </a></li>
+                    </a>
+                </li>
             </ul>
         </nav>
     </header>
@@ -36,40 +42,37 @@
             </h1>
 
             <p>
-                Thank you for your interest in my work, please feel free to contact me below. I look forward to hearing
-                from you!
+                Thank you for your interest in my work, please feel free to contact me below. I look forward to hearing from you!
             </p>
         </section>
-        <section>
+        <section class="container">
             <!-- Creates form for the contact section -->
-            <div class="container">
-                <form>
+            <form>
+                <label for="name">Name</label><br>
+                <input type="text" id="name" name="name" placeholder="What's your name?"><br>
 
-                    <label for="name">Name</label><br>
-                    <input type="text" id="name" name="name" placeholder="What's your name?"><br>
+                <label for="email">Email</label><br>
+                <input type="text" id="email" name="email" placeholder="What's your email?"><br>
 
-                    <label for="email">Email</label><br>
-                    <input type="text" id="email" name="email" placeholder="What's your email?"><br>
+                <label for="message">Message</label><br>
+                <textarea id="message" name="message" placeholder="What's your message?"></textarea><br>
 
-                    <label for="message">Message</label><br>
-                    <textarea id="message" name="message" placeholder="What's your message?"></textarea><br>
-
-                    <input type="submit" value="Submit">
-
-                </form>
-            </div>
+                <input type="submit" value="Submit">
+            </form>
         </section>
         <section id="references">
             <h3>
                 References:
             </h3>
             <p>
-                Stanley, P., & Lin, F. (2020). Avataaars [Image]. Avataaars Generator. https://getavataaars.com <br><br>
-                Fonticons, Inc. (2020). Home [Image]. Font Awesome. https://fontawesome.com/icons/home?style=solid
-                <br><br>
-                Fonticons, Inc. (2020). Archive [Image]. Font Awesome. https://fontawesome.com/icons/archive?style=solid
-                <br><br>
-                Fonticons, Inc. (2020). Phone [Image]. Font Awesome. https://fontawesome.com/icons/phone?style=solid
+                Stanley, P., & Lin, F. (2020). Avataaars [Image]. Avataaars Generator.
+                <i>https://getavataaars.com</i>
+                <br><br> Fonticons, Inc. (2020). Home [Image]. Font Awesome.
+                <i>https://fontawesome.com/icons/home?style=solid</i>
+                <br><br> Fonticons, Inc. (2020). Archive [Image]. Font Awesome.
+                <i>https://fontawesome.com/icons/archive?style=solid</i>
+                <br><br> Fonticons, Inc. (2020). Phone [Image]. Font Awesome.
+                <i>https://fontawesome.com/icons/phone?style=solid</i>
             </p>
         </section>
     </main>

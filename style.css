@@ -1,34 +1,36 @@
 /* Importing Roboto font with the weight of 300 from Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
-*{
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+* {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-} 
+}
 
 body {
     color: #252936;
 }
 
 main {
-    margin-top: calc(66px + 30px); /* Height of the navbar + extra space */
-    margin-bottom: calc(69px + 30px); /* Height of the footer + extra spacing */
+    margin-top: calc(66px + 30px);
+    /* Height of the navbar + extra space */
+    margin-bottom: calc(69px + 30px);
+    /* Height of the footer + extra spacing */
     padding: 0 10px;
 }
 
-/* --- Navigation Bar --- */
+
+/* Navigation Bar */
+
 nav {
     position: fixed;
     top: 0;
     width: 100%;
     min-height: 40px;
-    padding: 5px 0;    
-    
+    padding: 5px 0;
     background-color: #4A5069;
     text-align: center;
-    
     /* Creates flex box and centres the content */
     display: flex;
     justify-content: center;
@@ -47,28 +49,32 @@ nav a {
 
 .nav-links {
     display: flex;
-
     /* Spacing of the icons inside the ul */
     justify-content: space-around;
     align-items: center;
     width: 80%;
 }
 
+
 /* Highlights active page on nav bar */
+
 .nav-links .active {
     padding: 12px;
     border-radius: 50%;
-    background-color: #6E779C;    
+    background-color: #6E779C;
 }
+
 
 /* Size of the navbar icons */
+
 nav img {
     width: 2em;
-    height: 2em;    
+    height: 2em;
 }
-/* ---------------------- */
+
 
 /* Footer */
+
 footer {
     position: fixed;
     left: 0;
@@ -76,7 +82,6 @@ footer {
     width: 100%;
     padding: 25px;
     background-color: #4A5069;
-    
     color: white;
     text-align: center;
     letter-spacing: 2px;
