@@ -8,7 +8,6 @@ main {
 main img {
     display: block;
     max-width: 50%;
-<<<<<<< HEAD
     height: auto;
     margin-left: auto;
     margin-right: auto;
@@ -20,16 +19,6 @@ main img {
 section h1 {
     padding-top: 90px;
     padding-bottom: 20px;
-=======
-    height: auto; 
-    margin-left: auto;
-    margin-right: auto;    
-}
-
-/* -- Home Text -- */
-section h1 {
-    padding-top: 120px;
->>>>>>> 60db11cf901fdc581352092bd80b4ad2d5526a37
     text-align: center;
     font-weight: 600;
     font-size: xx-large;
@@ -43,43 +32,23 @@ section p {
     font-size: larger;
     font-weight: 600;
 }
-/* --------------- */
 
-<<<<<<< HEAD
 
 /* Call-to-action buttons */
 
 .call-to-actions {
-=======
-/* Call-to-action buttons */
-.linking-buttons {
->>>>>>> 60db11cf901fdc581352092bd80b4ad2d5526a37
     margin-top: 40px;
     text-align: center;
 }
 
-<<<<<<< HEAD
 .call-to-actions a {
     padding: 10px 15px;
     margin: 0 4px;
     border: 2px solid #475BAC;
     border-radius: 20px;
     text-decoration: none;
-    /* Removes hyperlink underline */
     background-color: white;
     color: #475BAC;
-=======
-.linking-buttons a {
-    padding: 10px 15px;
-    margin: 0 4px;
-    border: 2px solid #6e779c;
-    border-radius: 20px;
-
-    text-decoration: none; /* Removes hyperlink underline */
-    background-color: white;
-    color: #6e779c;
->>>>>>> 60db11cf901fdc581352092bd80b4ad2d5526a37
     font-weight: bold;
     letter-spacing: 1px;
 }
-/* ---------------------- */

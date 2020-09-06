@@ -1,11 +1,7 @@
 /* Importing Roboto font with the weight of 300 from Google Fonts */
 
-<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 * {
-=======
-*{
->>>>>>> 60db11cf901fdc581352092bd80b4ad2d5526a37
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
@@ -28,7 +24,6 @@ main {
 /* Navigation Bar */
 
 nav {
-<<<<<<< HEAD
     position: fixed;
     top: 0;
     width: 100%;
@@ -36,15 +31,6 @@ nav {
     padding: 5px 0;
     background-color: #4A5069;
     text-align: center;
-=======
-    width: 100%;
-    min-height: 40px;
-    padding: 5px 0;    
-    
-    background-color: #f0f1f5;
-    text-align: center;
-    
->>>>>>> 60db11cf901fdc581352092bd80b4ad2d5526a37
     /* Creates flex box and centres the content */
     display: flex;
     justify-content: center;
@@ -63,27 +49,18 @@ nav a {
 
 .nav-links {
     display: flex;
-<<<<<<< HEAD
-=======
-
->>>>>>> 60db11cf901fdc581352092bd80b4ad2d5526a37
     /* Spacing of the icons inside the ul */
     justify-content: space-around;
     align-items: center;
     width: 80%;
 }
 
-<<<<<<< HEAD
 
 /* Highlights active page on nav bar */
 
-=======
-/* Highlights active page on nav bar */
->>>>>>> 60db11cf901fdc581352092bd80b4ad2d5526a37
 .nav-links .active {
     padding: 12px;
     border-radius: 50%;
-<<<<<<< HEAD
     background-color: #6E779C;
 }
 
@@ -93,15 +70,6 @@ nav a {
 nav img {
     width: 2em;
     height: 2em;
-=======
-    background-color: #c0c4d4;    
-}
-
-/* Size of the navbar icons */
-nav img {
-    width: 2em;
-    height: 2em;    
->>>>>>> 60db11cf901fdc581352092bd80b4ad2d5526a37
 }
 
 
@@ -113,12 +81,7 @@ footer {
     bottom: 0;
     width: 100%;
     padding: 25px;
-<<<<<<< HEAD
     background-color: #4A5069;
-=======
-    background-color: #6e779c;
-    
->>>>>>> 60db11cf901fdc581352092bd80b4ad2d5526a37
     color: white;
     text-align: center;
     letter-spacing: 2px;
